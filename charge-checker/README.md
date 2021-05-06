@@ -10,7 +10,7 @@ This App / Automator Workflow shows a notification:
 - If the battery goes below 20%, reminding you to plug it in.
 
 1. Place the ChargeChecker.app in your applications directory
-2. Move the info.plist file to `~/Library/LaunchAgents`. (This file is needed to make it run every 15 minutes)
+2. Move the info.plist file to `~/Library/LaunchAgents`. (This file is needed to make it run every 10 minutes)
 3. Finally, to get the launchd daemon to load your configuration file, run the following in terminal
 
 `launchctl load ~/Library/LaunchAgents/com.apple.automator.ChargeChecker.plist`
